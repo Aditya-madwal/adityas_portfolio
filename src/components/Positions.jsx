@@ -18,40 +18,29 @@ const Positions = () => {
         </p>
       </div>
 
-      <div className="relative ml-3 md:ml-6 space-y-12">
+      <div className="space-y-8">
         {positions.map((pos, index) => (
-          <div key={index} className="relative pl-8 md:pl-12">
-            {/* Timeline Dot/Logo */}
-            <div className="absolute -left-3 md:-left-3 top-0">
-              <div className="w-16 h-16 md:w-10 md:h-10 rounded-full bg-white dark:bg-black border border-gray-200 dark:border-gray-700 overflow-hidden flex items-center justify-center">
-                 <img 
-                    src={pos.logo} 
-                    alt={pos.company} 
-                    className="w-full h-full object-cover"
-                  />
+          <div key={index} className="flex gap-4 group">
+            <div className="shrink-0 w-12 h-12 rounded-full bg-white dark:bg-gray-800 overflow-hidden border border-gray-200 dark:border-gray-700 shadow-sm">
+               <img 
+                  src={pos.logo} 
+                  alt={pos.company} 
+                  className="w-full h-full object-cover"
+                />
+            </div>
+
+            <div className="flex-1">
+              <div className="flex justify-between items-baseline">
+                <h3 className="font-semibold text-gray-900 dark:text-white text-base">{pos.title}</h3>
+                <span className="text-gray-500 dark:text-gray-500 text-sm tabular-nums">{pos.period}</span>
               </div>
+              
+              <p className="text-gray-600 dark:text-gray-400 text-sm mb-2">{pos.company}</p>
+              
+              <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-2">
+                {pos.description}
+              </p>
             </div>
-
-            <div className="flex flex-col sm:flex-row sm:items-baseline sm:justify-between mb-1">
-               <span className="text-xs text-gray-500 dark:text-gray-500 font-medium mb-1 sm:mb-0 order-1 sm:order-2">
-                {pos.period}
-              </span>
-              <h3 className="text-lg font-bold text-gray-900 dark:text-white order-2 sm:order-1">
-                {pos.title}
-              </h3>
-            </div>
-            
-            <div className="text-sm text-gray-500 dark:text-gray-400 mb-2">
-              {pos.company}
-            </div>
-            
-             <div className="text-sm text-gray-500 dark:text-gray-500 mb-4">
-              {pos.location}
-            </div>
-
-            <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-              {pos.description}
-            </p>
           </div>
         ))}
       </div>
