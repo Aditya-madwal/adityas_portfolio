@@ -101,7 +101,8 @@
         "PostgreSQL",
         "Python",
         "Git"
-      ]
+      ],
+      "logo": "/plutonic.png"
     },
     {
       "title": "Backend Developer Intern",
@@ -121,7 +122,8 @@
         "Git",
         "PostgreSQL",
         "Python"
-      ]
+      ],
+      "logo": "/devneural.png"
     },
     {
       "title": "Full-Stack Developer Intern",
@@ -144,24 +146,8 @@
         "Django",
         "Django REST Framework",
         "Team Collaboration"
-      ]
-    },
-    {
-      "title": "Web Internship Coordinator",
-      "company": "Microsoft Learn Student Ambassador, K.I.E.T",
-      "period": "Aug 2024 – Oct 2024",
-      "description": "Managed internship programs and enhanced web platform UI while coordinating with multiple stakeholders.",
-      "achievements": [
-        "Managed 400+ intern candidates with a 95% program success rate",
-        "Enhanced MLSA KIET website UI, improving engagement by 25%",
-        "Received 94% positive feedback from participants"
       ],
-      "technologies": [
-        "Web Development",
-        "UI/UX",
-        "Project Management",
-        "Microsoft Technologies"
-      ]
+      "logo": "/tbi.png"
     }
   ],
   "credentials": {
@@ -190,7 +176,7 @@
         "degree": "Bachelor of Technology (Computer Science)",
         "institution": "K.I.E.T Group of Institutions, A.K.T.U",
         "year": "2022 – 2026 (77.2%)",
-        "logo": "/kiet.jpg"
+        "logo": "/kiet.png"
       },
       {
         "degree": "Intermediate (94%)",
@@ -258,8 +244,7 @@
         "Optimized API performance with 60% faster response times"
       ],
       "technologies": ["Next.js", "Tailwind CSS", "Radix UI", "MongoDB", "JWT", "Gemini API", "Gmail API", "Vercel"],
-      "coverImage": "/mailboard/dashboard.png",
-      "thumbnailImage": "/mailboard/dashboard.png",
+      "thumbnailImage": "/mailboard.png",
       "gallery": [
         { "url": "/mailboard/dashboard.png", "caption": "Dashboard Overview" },
         { "url": "/mailboard/onboarding.png", "caption": "Onboarding Process" },
@@ -275,7 +260,7 @@
           "slug": "aristotle",
           "title": "Aristotle",
           "category": "AI Platform",
-          "image": "/modern-finance-overview.png"
+          "image": "/mailboard.png"
         }
       ]
     },
@@ -299,8 +284,7 @@
         "Real-time document processing and analysis"
       ],
       "technologies": ["React.js", "Django REST", "Gemini API", "IPFS", "PostgreSQL", "Pinata Cloud", "Render"],
-      "coverImage": "/aristotle/dashboard.png",
-      "thumbnailImage": "/aristotle/dashboard.png",
+      "thumbnailImage": "/aristotle.png",
       "gallery": [
         { "url": "/aristotle/dashboard.png", "caption": "Main Dashboard" },
         { "url": "/aristotle/roadmap.png", "caption": "Roadmap Dashboard" },
@@ -316,7 +300,7 @@
           "slug": "mailboard",
           "title": "MailBoard",
           "category": "Full-Stack Web App",
-          "image": "/modern-finance-app.png"
+          "image": "/aristotle.png"
         }
       ]
     }
@@ -328,15 +312,15 @@
       "period": "Aug 2024 – Oct 2024",
       "location": "Ghaziabad, India",
       "description": "Managed internship programs and enhanced web platform UI while coordinating with multiple stakeholders. Managed 400+ intern candidates with a 95% program success rate.",
-      "logo": "/kiet.jpg"
+      "logo": "/mlsa.jpg"
     },
     {
-      "title": "Core Team Member",
-      "company": "Google Developer Student Clubs, K.I.E.T",
-      "period": "Aug 2023 – July 2024",
-      "location": "Ghaziabad, India",
-      "description": "Organized technical workshops and hackathons. Mentored junior students in web development technologies.",
-      "logo": "/kiet.jpg"
+      "title": "Graphic Designer",
+      "company": "KIET Group of Institutions",
+      "period": "Sep 2023 - Sep 2024",
+      "location": "Ghaziabad, Uttar Pradesh, India · Hybrid",
+      "description": "Served as a Graphic Designer for the departmental magazine at KIET Group of Institutions, contributing to the design of over 3 magazines. Collaborated with editorial teams to enhance visual appeal and readability, managed deadlines effectively, and ensured alignment with departmental goals through regular strategy sessions.",
+      "logo": "/kiet.png"
     }
   ]
 }

@@ -12,7 +12,7 @@ const Experience = () => {
           <div key={index} className="flex gap-4 group">
             <div className="shrink-0 w-12 h-12 rounded-full bg-white dark:bg-gray-800 overflow-hidden border border-gray-200 dark:border-gray-700 shadow-sm">
               <img 
-                src="https://images.unsplash.com/photo-1560179707-f14e90ef3623?fit=crop&w=100&h=100" 
+                src={job.logo} 
                 alt={job.company} 
                 className="w-full h-full object-cover" 
               />
@@ -26,12 +26,6 @@ const Experience = () => {
               <p className="text-gray-500 dark:text-gray-400 text-sm leading-relaxed mb-2">
                 {job.description}
               </p>
-              {/* Achievements if needed, but the image design is simple. I'll keep it simple but maybe add achievements if they fit nicely or just keep description. 
-                  The design in image 1 is very clean, just title/company/date. 
-                  I'll stick to the clean design but maybe show achievements in a more subtle way or skip them to match the "exact layout" request.
-                  The user said "exact same layout". The layout in image 1 doesn't show long descriptions. 
-                  However, the user provided detailed data. I will include the description but keep it clean.
-              */}
             </div>
           </div>
         ))}

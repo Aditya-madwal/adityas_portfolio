@@ -11,30 +11,23 @@ const Positions = () => {
           Positions of Responsibility
         </span>
         <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
-          I like building things
+          Beyond Academics
         </h2>
         <p className="text-gray-600 dark:text-gray-400 max-w-xl leading-relaxed">
-          During my time in university, I attended 21+ hackathons. People from around the country would come together and build incredible things in 2-3 days. It was eye-opening to see the endless possibilities brought to life by a group of motivated and passionate individuals.
+          Throughout my College, I've had the privilege of contributing to various organizations, taking on diverse roles, and leading impactful projects. Here's a look at my professional experience and the responsibilities I've embraced.
         </p>
       </div>
 
-      <div className="relative border-l border-gray-200 dark:border-gray-800 ml-3 md:ml-6 space-y-12">
+      <div className="relative ml-3 md:ml-6 space-y-12">
         {positions.map((pos, index) => (
           <div key={index} className="relative pl-8 md:pl-12">
             {/* Timeline Dot/Logo */}
             <div className="absolute -left-3 md:-left-3 top-0">
-              <div className="w-6 h-6 md:w-6 md:h-6 rounded-full bg-white dark:bg-black border border-gray-200 dark:border-gray-700 overflow-hidden flex items-center justify-center">
-                 {/* Using a generic placeholder if logo fails or is just a path string. 
-                     The design shows logos. I'll use the logo from data. 
-                 */}
+              <div className="w-16 h-16 md:w-10 md:h-10 rounded-full bg-white dark:bg-black border border-gray-200 dark:border-gray-700 overflow-hidden flex items-center justify-center">
                  <img 
                     src={pos.logo} 
                     alt={pos.company} 
                     className="w-full h-full object-cover"
-                    onError={(e) => {
-                      e.target.onerror = null; 
-                      e.target.src = "https://via.placeholder.com/40"; 
-                    }}
                   />
               </div>
             </div>

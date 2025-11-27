@@ -12,7 +12,7 @@ const Education = () => {
           <div key={index} className="flex gap-4 group">
             <div className="shrink-0 w-12 h-12 rounded-full bg-white dark:bg-gray-800 overflow-hidden border border-gray-200 dark:border-gray-700 shadow-sm">
               <img 
-                src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?fit=crop&w=100&h=100" 
+                src={edu.logo} 
                 alt={edu.institution} 
                 className="w-full h-full object-cover" 
               />
