@@ -11,6 +11,10 @@
   color-scheme: light dark;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   @apply bg-white text-gray-900 antialiased dark:bg-black dark:text-white transition-colors duration-300;
 }
