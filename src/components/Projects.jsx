@@ -44,7 +44,13 @@ const Projects = () => {
                 className="text-2xl md:text-5xl font-bold text-gray-900 dark:text-white mb-3"
               >
                 {project.title}
+                
               </motion.h3>
+              <span className="inline-flex items-center rounded-full px-3 py-1 text-xs font-medium bg-green-50 dark:bg-green-900 text-green-700 dark:text-green-300 w-fit mb-4">
+                <span className="w-2 h-2 bg-green-500 rounded-full mr-2"></span>
+                click to expand
+              </span>
+              
               <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed mb-6 line-clamp-3">
                 {project.description[0]}
               </p>
