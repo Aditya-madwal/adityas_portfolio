@@ -25,7 +25,7 @@ function App() {
   };
 
   return (
-    <div className="min-h-screen bg-white dark:bg-black transition-colors duration-300 pb-32 font-sans selection:bg-yellow-200 dark:selection:bg-yellow-900 selection:text-black dark:selection:text-white">
+    <div className="min-h-screen transition-colors duration-300 pb-32 font-sans selection:bg-yellow-200 dark:selection:bg-yellow-900 selection:text-black dark:selection:text-white">
       <Navbar darkMode={darkMode} toggleDarkMode={toggleDarkMode} />
       <main className="container mx-auto">
         <Hero />
