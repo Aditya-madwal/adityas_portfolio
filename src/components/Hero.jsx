@@ -14,6 +14,17 @@ const Hero = () => {
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-300 leading-relaxed">
             Full-Stack Developer | UI/UX Enthusiast | Passionate about building scalable and user-friendly applications
           </p> 
+          <div className="pt-2">
+            <a 
+              href="https://drive.google.com/file/d/1pZpM7rUeTcOTLDywZmKKW9f22RYjkn7U/view?usp=sharing" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group inline-flex items-center gap-2 px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-full font-medium transition-all"
+            >
+              View Resume 
+              <span className="transition-transform group-hover:translate-x-1">→</span>
+            </a>
+          </div>
         </div>
         <div className="relative shrink-0">
           <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white dark:border-gray-800">
