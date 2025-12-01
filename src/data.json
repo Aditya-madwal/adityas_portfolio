@@ -35,9 +35,10 @@
   "about": {
     "bio": "I'm a passionate full-stack developer with expertise in building scalable web applications. Currently pursuing Computer Science at K.I.E.T Group of Institutions with hands-on experience in Django, React, and modern web technologies.",
     "focus": [
-      "Building scalable RESTful APIs using Django and Django REST Framework",
-      "Creating responsive and intuitive user interfaces with React and Next.js",
-      "Optimizing application performance and database queries"
+      "Architecting and deploying robust, scalable applications.",
+      "Designing and implementing intuitive, responsive user experiences.",
+      "Optimizing system performance and ensuring efficient data management.",
+      "Embracing continuous learning and knowledge sharing."
     ],
     "languages": [
       {

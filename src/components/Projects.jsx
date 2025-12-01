@@ -180,7 +180,7 @@ const Projects = () => {
                         className="w-full h-auto object-cover"
                         onError={(e) => {
                           e.target.onerror = null; 
-                          e.target.src = "https://images.unsplash.com/photo-1555066931-4365d14bab8c?fit=crop&w=800&h=600";
+                          e.target.src = "/aristotle.png";
                         }}
                        />
                      </div>
