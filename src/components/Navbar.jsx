@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Home, Briefcase, FileText, Code, Folder, Github, Linkedin, Globe, Sun, Moon, ArrowUp } from 'lucide-react';
+import { Home, Briefcase, FileText, Code, Folder, Github, Linkedin, Globe, Sun, Moon, ArrowUp, Terminal } from 'lucide-react';
 import { motion, useMotionValue, useSpring, useTransform, AnimatePresence } from 'framer-motion';
 
 const DockIcon = ({ mouseX, icon: Icon, href, label, onClick }) => {
@@ -71,6 +71,7 @@ const Navbar = ({ darkMode, toggleDarkMode }) => {
     { icon: Github, label: 'GitHub', href: 'https://github.com/aditya-madwal/' },
     { icon: Linkedin, label: 'LinkedIn', href: 'https://linkedin.com/in/aditya-madwal-118525257' },
     { icon: Globe, label: 'Portfolio', href: 'https://aditya-madwal.vercel.app/' },
+    { icon: Terminal, label: 'Coding Profile', href: 'https://codolio.com/profile/adityamadwal' },
   ];
 
   return (
