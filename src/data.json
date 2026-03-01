@@ -13,7 +13,11 @@
     "phone": "+91 8130492789",
     "workingHours": "Monday - Friday, 9am - 6pm IST",
     "availableForWork": true,
-    "badges": ["Full-Stack", "Backend", "UI/UX"],
+    "badges": [
+      "Full-Stack",
+      "Backend",
+      "UI/UX"
+    ],
     "social": [
       {
         "platform": "GitHub",
@@ -83,6 +87,28 @@
     }
   ],
   "experience": [
+    {
+      "title": "SDE Intern",
+      "company": "Instahyre",
+      "period": "Feb 2026 – Present",
+      "description": "Contributed to large-scale Django-based systems serving 4M+ users by resolving production issues, optimizing high-traffic APIs, and enhancing legacy architectures to improve performance, reliability, and scalability.",
+      "achievements": [
+        "Diagnosed and resolved critical production issues across Django services supporting 4M+ users, significantly improving platform stability",
+        "Refactored and optimized high-traffic REST APIs, reducing average response time and enhancing system performance at scale",
+        "Maintained and enhanced legacy systems built on Django, Angular, and Elasticsearch while ensuring backward compatibility",
+        "Improved overall system reliability through continuous monitoring, debugging, and performance tuning in production environments"
+      ],
+      "technologies": [
+        "Django",
+        "Django REST Framework",
+        "Angular",
+        "Elasticsearch",
+        "PostgreSQL",
+        "Python",
+        "Mercurial"
+      ],
+      "logo": "/instahyre.png"
+    },
     {
       "title": "Backend Developer Intern",
       "company": "Plutonic Services",
@@ -204,7 +230,12 @@
     ]
   },
   "technicalSkills": {
-    "languages": ["Python", "JavaScript", "HTML/CSS", "Java"],
+    "languages": [
+      "Python",
+      "JavaScript",
+      "HTML/CSS",
+      "Java"
+    ],
     "frameworks": [
       "Django",
       "Django REST Framework",
@@ -222,7 +253,12 @@
       "PyCharm",
       "Figma"
     ],
-    "uiux": ["Interface Design", "User Research", "Wireframing", "Prototyping"]
+    "uiux": [
+      "Interface Design",
+      "User Research",
+      "Wireframing",
+      "Prototyping"
+    ]
   },
   "projects": [
     {
@@ -244,13 +280,34 @@
         "100% responsive design with Tailwind CSS and Radix UI",
         "Optimized API performance with 60% faster response times"
       ],
-      "technologies": ["Next.js", "Tailwind CSS", "Radix UI", "MongoDB", "JWT", "Gemini API", "Gmail API", "Vercel"],
+      "technologies": [
+        "Next.js",
+        "Tailwind CSS",
+        "Radix UI",
+        "MongoDB",
+        "JWT",
+        "Gemini API",
+        "Gmail API",
+        "Vercel"
+      ],
       "thumbnailImage": "/mailboard.png",
       "gallery": [
-        { "url": "/mailboard/dashboard.png", "caption": "Dashboard Overview" },
-        { "url": "/mailboard/onboarding.png", "caption": "Onboarding Process" },
-        { "url": "/mailboard/filtered.png", "caption": "Filtered View" },
-        { "url": "/mailboard/addtask.png", "caption": "Add Task" }
+        {
+          "url": "/mailboard/dashboard.png",
+          "caption": "Dashboard Overview"
+        },
+        {
+          "url": "/mailboard/onboarding.png",
+          "caption": "Onboarding Process"
+        },
+        {
+          "url": "/mailboard/filtered.png",
+          "caption": "Filtered View"
+        },
+        {
+          "url": "/mailboard/addtask.png",
+          "caption": "Add Task"
+        }
       ],
       "timeline": "June 2025",
       "role": "Full-Stack Developer",
@@ -284,13 +341,33 @@
         "Secure user authentication and data management",
         "Real-time document processing and analysis"
       ],
-      "technologies": ["React.js", "Django REST", "Gemini API", "IPFS", "PostgreSQL", "Pinata Cloud", "Render"],
+      "technologies": [
+        "React.js",
+        "Django REST",
+        "Gemini API",
+        "IPFS",
+        "PostgreSQL",
+        "Pinata Cloud",
+        "Render"
+      ],
       "thumbnailImage": "/aristotle.png",
       "gallery": [
-        { "url": "/aristotle/dashboard.png", "caption": "Main Dashboard" },
-        { "url": "/aristotle/roadmap.png", "caption": "Roadmap Dashboard" },
-        { "url": "/aristotle/pdfsummarize.png", "caption": "PDF Summarization" },
-        { "url": "/aristotle/schedule.png", "caption": "Schedule" }
+        {
+          "url": "/aristotle/dashboard.png",
+          "caption": "Main Dashboard"
+        },
+        {
+          "url": "/aristotle/roadmap.png",
+          "caption": "Roadmap Dashboard"
+        },
+        {
+          "url": "/aristotle/pdfsummarize.png",
+          "caption": "PDF Summarization"
+        },
+        {
+          "url": "/aristotle/schedule.png",
+          "caption": "Schedule"
+        }
       ],
       "timeline": "January 2025",
       "role": "Full-Stack Developer",

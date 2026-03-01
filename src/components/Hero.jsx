@@ -16,7 +16,7 @@ const Hero = () => {
           </p> 
           <div className="pt-2">
             <a 
-              href="https://drive.google.com/file/d/1nW2jvDLooYo1l6PbZBJ06UQn8G4BcAfL/view?usp=sharing" 
+              href="https://drive.google.com/file/d/1fRWgqqIkt5PGrX5L-Wk_v8cnSId8q7yJ/view" 
               target="_blank" 
               rel="noopener noreferrer"
               className="group inline-flex items-center gap-2 px-6 py-3 bg-gray-900 dark:bg-white text-white dark:text-gray-900 rounded-full font-medium transition-all"
