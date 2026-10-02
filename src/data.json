@@ -88,10 +88,10 @@
   ],
   "experience": [
     {
-      "title": "SDE Intern",
+      "title": "SDE-1",
       "company": "Instahyre",
       "period": "Feb 2026 – Present",
-      "description": "Contributed to large-scale Django-based systems serving 4M+ users by resolving production issues, optimizing high-traffic APIs, and enhancing legacy architectures to improve performance, reliability, and scalability.",
+      "description": "Contributed to large-scale Django-based systems serving 6M+ users by resolving production issues, optimizing high-traffic APIs, and enhancing legacy architectures to improve performance, reliability, and scalability.",
       "achievements": [
         "Diagnosed and resolved critical production issues across Django services supporting 4M+ users, significantly improving platform stability",
         "Refactored and optimized high-traffic REST APIs, reducing average response time and enhancing system performance at scale",
